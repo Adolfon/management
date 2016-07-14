@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 7, 2016 5:11:45 PM by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="co.jp.eureka.entities.MaSkillitem" table="ma_skillitem" catalog="project_db3" optimistic-lock="version">
+        <id name="skillCode" type="string">
+            <column name="skill_code" length="20" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="maSkillcategory" class="co.jp.eureka.entities.MaSkillcategory" fetch="select">
+            <column name="category_code" length="20" not-null="true" />
+        </many-to-one>
+        <property name="skillName" type="string">
+            <column name="skill_name" length="50" not-null="true" />
+        </property>
+        <property name="skillDspOrder" type="int">
+            <column name="skill_dsp_order" not-null="true" />
+        </property>
+        <property name="prjNeedsSkillId" type="string">
+            <column name="prj_needs_skill_id" length="12" />
+        </property>
+        <property name="skillLevel" type="int">
+            <column name="skill_level"  />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 15, 2016 5:39:07 PM by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="co.jp.eureka.entities.MaProjectkbn" table="ma_projectkbn" catalog="project_db4" optimistic-lock="version">
+        <id name="projectkbnId" type="int">
+            <column name="projectkbn_id" />
+            <generator class="assigned" />
+        </id>
+        <property name="projectkbnCode" type="string">
+            <column name="projectkbn_code" length="8" not-null="true" />
+        </property>
+        <property name="projectkbnName" type="string">
+            <column name="projectkbn_name" length="10" not-null="true" />
+        </property>
+        <property name="creDtime" type="timestamp">
+            <column name="cre_dtime" length="19" />
+        </property>
+        <property name="updDtime" type="timestamp">
+            <column name="upd_dtime" length="19" />
+        </property>
+        <one-to-one name="tzPrj" class="co.jp.eureka.entities.TzPrj"></one-to-one>
+    </class>
+</hibernate-mapping>

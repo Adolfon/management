@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 15, 2016 5:39:07 PM by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="co.jp.eureka.entities.MaCustomer" table="ma_customer" catalog="project_db3" optimistic-lock="version">
+        <id name="customerId" type="int">
+            <column name="customer_id" />
+            <!-- <generator class="increment" /> -->
+        </id>
+        <property name="customerCode" type="string">
+            <column name="customer_code" length="8" not-null="true" />
+        </property>
+        <property name="cuatomerName" type="string">
+            <column name="cuatomer_name" length="30" not-null="true" />
+        </property>
+        <property name="customerDspName" type="string">
+            <column name="customer_dsp_name" length="30" not-null="true" />
+        </property>
+        <property name="customerTel" type="string">
+            <column name="customer_tel" length="15" not-null="true" />
+        </property>
+        <property name="customerFax" type="string">
+            <column name="customer_fax" length="15" not-null="true" />
+        </property>
+        <property name="customerTantoName" type="string">
+            <column name="customer_tanto_name" length="30" not-null="true" />
+        </property>
+        <property name="customerEmailAddrs" type="string">
+            <column name="customer_email_addrs" length="48" not-null="true" />
+        </property>
+        <set name="tzPrjs" table="tz_prj" inverse="true" lazy="true" fetch="select">         
+            <key>
+                <column name="prj_customer_id" not-null="true" />
+            </key>
+            <one-to-many class="co.jp.eureka.entities.TzPrj" />
+        </set>
+    </class>
+</hibernate-mapping>

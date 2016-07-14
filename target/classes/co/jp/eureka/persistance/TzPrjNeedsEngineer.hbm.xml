@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 15, 2016 5:39:07 PM by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="co.jp.eureka.entities.TzPrjNeedsEngineer" table="tz_prj_needs_engineer" catalog="project_db3" optimistic-lock="version">
+        <composite-id name="id" class="co.jp.eureka.entities.TzPrjNeedsEngineerId">
+            <key-property name="prjId" type="int">
+                <column name="prj_id" />
+            </key-property>
+            <key-property name="prjSubId" type="int">
+                <column name="prj_sub_id" />
+            </key-property>
+            <key-property name="prjNeedsEngineerkbnId" type="int">
+                <column name="prj_needs_engineerkbn_id" />
+            </key-property>
+        </composite-id>
+        <many-to-one name="maEngineerkbn" class="co.jp.eureka.entities.MaEngineerkbn" update="false" insert="false" fetch="select">
+            <column name="prj_needs_engineerkbn_id" not-null="true" />
+        </many-to-one>
+        <property name="prjNeedsEngineerNumber" type="int">
+            <column name="prj_needs_engineer_number" not-null="true" />
+        </property>
+        <property name="prjNeedsPriodFrom" type="timestamp">
+            <column name="prj_needs_priod_from" length="19" not-null="true" />
+        </property>
+        <property name="prjNeedsPriodTo" type="timestamp">
+            <column name="prj_needs_priod_to" length="19" />
+        </property>
+        <property name="prjNeedsEngineerRoughPrice" type="int">
+            <column name="prj_needs_engineer_rough_price" precision="8" scale="0" not-null="true" />
+        </property>
+        <property name="prjNeedsEngineerWorkingPlace" type="string">
+            <column name="prj_needs_engineer_working_place" length="20" not-null="true" />
+        </property>
+        <property name="prjNeedsEngineerEtc" type="string">
+            <column name="prj_needs_engineer_etc" length="500" not-null="true" />
+        </property>
+        <property name="prjNeedsEngineerUpdKaishaId" type="int">
+            <column name="prj_needs_engineer_upd_kaisha_id" not-null="true" />
+        </property>
+        <property name="prjNeedsEngineerUpdUserId" type="int">
+            <column name="prj_needs_engineer_upd_user_id" not-null="true" />
+        </property>
+        <property name="updDtime" type="timestamp">
+            <column name="upd_dtime" length="19" not-null="true" />
+        </property>
+        <one-to-one name="tzPrjNeedsSkill" class="co.jp.eureka.entities.TzPrjNeedsSkill"></one-to-one>
+    </class>
+</hibernate-mapping>

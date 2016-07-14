@@ -1,0 +1,727 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building management_eureka 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ management_eureka ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 18 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ management_eureka ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ management_eureka ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ management_eureka ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ management_eureka ---
+[INFO] Surefire report directory: D:\Workspace\management_eureka\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running co.jp.eureka.example.ConfigTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.026 sec
+Running co.jp.eureka.example.HelloWorldTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.23 sec
+Running co.jp.eureka.example.LoginTest
+14:12:23,969 DEBUG Login:32 - executing the action..Cano
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.418 sec
+Running co.jp.eureka.persistance.ProjectTest
+2016-06-27 14:12:24,687 DEBUG [main] persistance.ProjectTest (ProjectTest.java:79) - --Start  testProject_createWithSkills--
+2016-06-27 14:12:24,687 DEBUG [main] persistance.ProjectTest (ProjectTest.java:79) - --Start  testProject_createWithSkills--
+2016-06-27 14:12:24,719 DEBUG [main] utils.HibernateUtil (HibernateUtil.java:33) - OK1------------------
+2016-06-27 14:12:24,719 DEBUG [main] utils.HibernateUtil (HibernateUtil.java:33) - OK1------------------
+2016-06-27 14:12:24,720 DEBUG [main] utils.HibernateUtil (HibernateUtil.java:34) - -----------buildingSessionFactory--------
+2016-06-27 14:12:24,720 DEBUG [main] utils.HibernateUtil (HibernateUtil.java:34) - -----------buildingSessionFactory--------
+14:12:24,770 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+14:12:24,799 DEBUG BasicTypeRegistry:146 - Adding type registration boolean -> org.hibernate.type.BooleanType@5dcb4f5f
+14:12:24,800 DEBUG BasicTypeRegistry:146 - Adding type registration boolean -> org.hibernate.type.BooleanType@5dcb4f5f
+14:12:24,800 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@5dcb4f5f
+14:12:24,802 DEBUG BasicTypeRegistry:146 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@47f9738
+14:12:24,804 DEBUG BasicTypeRegistry:146 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@388526fb
+14:12:24,805 DEBUG BasicTypeRegistry:146 - Adding type registration yes_no -> org.hibernate.type.YesNoType@42bc14c1
+14:12:24,807 DEBUG BasicTypeRegistry:146 - Adding type registration byte -> org.hibernate.type.ByteType@25aca718
+14:12:24,812 DEBUG BasicTypeRegistry:146 - Adding type registration byte -> org.hibernate.type.ByteType@25aca718
+14:12:24,813 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@25aca718
+14:12:24,815 DEBUG BasicTypeRegistry:146 - Adding type registration character -> org.hibernate.type.CharacterType@79179359
+14:12:24,817 DEBUG BasicTypeRegistry:146 - Adding type registration char -> org.hibernate.type.CharacterType@79179359
+14:12:24,817 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@79179359
+14:12:24,819 DEBUG BasicTypeRegistry:146 - Adding type registration short -> org.hibernate.type.ShortType@3a0baae5
+14:12:24,820 DEBUG BasicTypeRegistry:146 - Adding type registration short -> org.hibernate.type.ShortType@3a0baae5
+14:12:24,821 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3a0baae5
+14:12:24,823 DEBUG BasicTypeRegistry:146 - Adding type registration integer -> org.hibernate.type.IntegerType@5143c662
+14:12:24,824 DEBUG BasicTypeRegistry:146 - Adding type registration int -> org.hibernate.type.IntegerType@5143c662
+14:12:24,824 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@5143c662
+14:12:24,827 DEBUG BasicTypeRegistry:146 - Adding type registration long -> org.hibernate.type.LongType@4b1d6571
+14:12:24,828 DEBUG BasicTypeRegistry:146 - Adding type registration long -> org.hibernate.type.LongType@4b1d6571
+14:12:24,829 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@4b1d6571
+14:12:24,834 DEBUG BasicTypeRegistry:146 - Adding type registration float -> org.hibernate.type.FloatType@46dffdc3
+14:12:24,834 DEBUG BasicTypeRegistry:146 - Adding type registration float -> org.hibernate.type.FloatType@46dffdc3
+14:12:24,835 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@46dffdc3
+14:12:24,837 DEBUG BasicTypeRegistry:146 - Adding type registration double -> org.hibernate.type.DoubleType@4748a0f9
+14:12:24,837 DEBUG BasicTypeRegistry:146 - Adding type registration double -> org.hibernate.type.DoubleType@4748a0f9
+14:12:24,838 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@4748a0f9
+14:12:24,840 DEBUG BasicTypeRegistry:146 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@421bba99
+14:12:24,840 DEBUG BasicTypeRegistry:146 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@421bba99
+14:12:24,842 DEBUG BasicTypeRegistry:146 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@31bcf236
+14:12:24,842 DEBUG BasicTypeRegistry:146 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@31bcf236
+14:12:24,844 DEBUG BasicTypeRegistry:146 - Adding type registration string -> org.hibernate.type.StringType@3a12c404
+14:12:24,844 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.String -> org.hibernate.type.StringType@3a12c404
+14:12:24,846 DEBUG BasicTypeRegistry:146 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@2c1156a7
+14:12:24,848 DEBUG BasicTypeRegistry:146 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@e19bb76
+14:12:24,849 DEBUG BasicTypeRegistry:146 - Adding type registration url -> org.hibernate.type.UrlType@5adb0db3
+14:12:24,850 DEBUG BasicTypeRegistry:146 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@5adb0db3
+14:12:24,853 DEBUG BasicTypeRegistry:146 - Adding type registration date -> org.hibernate.type.DateType@253d9f73
+14:12:24,854 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@253d9f73
+14:12:24,856 DEBUG BasicTypeRegistry:146 - Adding type registration time -> org.hibernate.type.TimeType@a22cb6a
+14:12:24,857 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@a22cb6a
+14:12:24,859 DEBUG BasicTypeRegistry:146 - Adding type registration timestamp -> org.hibernate.type.TimestampType@7502291e
+14:12:24,860 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7502291e
+14:12:24,860 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7502291e
+14:12:24,863 DEBUG BasicTypeRegistry:146 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@46944ca9
+14:12:24,865 DEBUG BasicTypeRegistry:146 - Adding type registration calendar -> org.hibernate.type.CalendarType@79c7532f
+14:12:24,865 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@79c7532f
+14:12:24,865 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@79c7532f
+14:12:24,866 DEBUG BasicTypeRegistry:146 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@43f82e78
+14:12:24,867 DEBUG BasicTypeRegistry:146 - Adding type registration locale -> org.hibernate.type.LocaleType@64b73e7a
+14:12:24,868 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@64b73e7a
+14:12:24,869 DEBUG BasicTypeRegistry:146 - Adding type registration currency -> org.hibernate.type.CurrencyType@55322aab
+14:12:24,869 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@55322aab
+14:12:24,870 DEBUG BasicTypeRegistry:146 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@76884e4b
+14:12:24,871 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@76884e4b
+14:12:24,872 DEBUG BasicTypeRegistry:146 - Adding type registration class -> org.hibernate.type.ClassType@6d3c5255
+14:12:24,872 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6d3c5255
+14:12:24,874 DEBUG BasicTypeRegistry:146 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@4df5bcb4
+14:12:24,875 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@4df5bcb4
+14:12:24,876 DEBUG BasicTypeRegistry:146 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@2826f61
+14:12:24,877 DEBUG BasicTypeRegistry:146 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@737a135b
+14:12:24,879 DEBUG BasicTypeRegistry:146 - Adding type registration binary -> org.hibernate.type.BinaryType@115667d
+14:12:24,879 DEBUG BasicTypeRegistry:146 - Adding type registration byte[] -> org.hibernate.type.BinaryType@115667d
+14:12:24,880 DEBUG BasicTypeRegistry:146 - Adding type registration [B -> org.hibernate.type.BinaryType@115667d
+14:12:24,882 DEBUG BasicTypeRegistry:146 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6127a7e
+14:12:24,882 DEBUG BasicTypeRegistry:146 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6127a7e
+14:12:24,882 DEBUG BasicTypeRegistry:146 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6127a7e
+14:12:24,883 DEBUG BasicTypeRegistry:146 - Adding type registration image -> org.hibernate.type.ImageType@79d94571
+14:12:24,885 DEBUG BasicTypeRegistry:146 - Adding type registration characters -> org.hibernate.type.CharArrayType@55dfcc6
+14:12:24,886 DEBUG BasicTypeRegistry:146 - Adding type registration char[] -> org.hibernate.type.CharArrayType@55dfcc6
+14:12:24,886 DEBUG BasicTypeRegistry:146 - Adding type registration [C -> org.hibernate.type.CharArrayType@55dfcc6
+14:12:24,887 DEBUG BasicTypeRegistry:146 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@4b6690c0
+14:12:24,888 DEBUG BasicTypeRegistry:146 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@4b6690c0
+14:12:24,888 DEBUG BasicTypeRegistry:146 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@4b6690c0
+14:12:24,889 DEBUG BasicTypeRegistry:146 - Adding type registration text -> org.hibernate.type.TextType@7cf6a5f9
+14:12:24,890 DEBUG BasicTypeRegistry:146 - Adding type registration ntext -> org.hibernate.type.NTextType@3d2ee678
+14:12:24,895 DEBUG BasicTypeRegistry:146 - Adding type registration blob -> org.hibernate.type.BlobType@13f95696
+14:12:24,895 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@13f95696
+14:12:24,896 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@32193bea
+14:12:24,899 DEBUG BasicTypeRegistry:146 - Adding type registration clob -> org.hibernate.type.ClobType@1cdc4c27
+14:12:24,899 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1cdc4c27
+14:12:24,903 DEBUG BasicTypeRegistry:146 - Adding type registration nclob -> org.hibernate.type.NClobType@33b1c5c5
+14:12:24,904 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@33b1c5c5
+14:12:24,904 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@9ef8eb7
+14:12:24,905 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@305a0c5f
+14:12:24,906 DEBUG BasicTypeRegistry:146 - Adding type registration serializable -> org.hibernate.type.SerializableType@4b41e4dd
+14:12:24,910 DEBUG BasicTypeRegistry:146 - Adding type registration object -> org.hibernate.type.ObjectType@1817f1eb
+14:12:24,910 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1817f1eb
+14:12:24,911 DEBUG BasicTypeRegistry:146 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@301ec38b
+14:12:24,912 DEBUG BasicTypeRegistry:146 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@17a1e4ca
+14:12:24,912 DEBUG BasicTypeRegistry:146 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@10ded6a9
+14:12:24,912 DEBUG BasicTypeRegistry:146 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@c5dc4a2
+14:12:24,912 DEBUG BasicTypeRegistry:146 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4a194c39
+14:12:24,913 DEBUG BasicTypeRegistry:146 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@52066604
+14:12:24,913 DEBUG BasicTypeRegistry:146 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@340b9973
+14:12:24,913 DEBUG BasicTypeRegistry:146 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@56113384
+14:12:24,931  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+14:12:24,937  INFO Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+14:12:24,939  INFO Environment:239 - HHH000206: hibernate.properties not found
+14:12:24,940  INFO Environment:346 - HHH000021: Bytecode provider name : javassist
+14:12:24,964  INFO Configuration:2111 - HHH000044: Configuring from URL: file:/D:/Workspace/management_eureka/target/classes/hibernate.cfg.xml
+14:12:24,999  INFO Configuration:759 - HHH000221: Reading mappings from resource: co/jp/eureka/persistance/TzPrjNeedsSkill.hbm.xml
+14:12:25,041  INFO Configuration:759 - HHH000221: Reading mappings from resource: co/jp/eureka/persistance/MaCustomer.hbm.xml
+14:12:25,055  INFO Configuration:759 - HHH000221: Reading mappings from resource: co/jp/eureka/persistance/TzPrjNeedsEngineer.hbm.xml
+14:12:25,067  INFO Configuration:759 - HHH000221: Reading mappings from resource: co/jp/eureka/persistance/MaSkillcategory.hbm.xml
+14:12:25,081  INFO Configuration:759 - HHH000221: Reading mappings from resource: co/jp/eureka/persistance/MaSkillitem.hbm.xml
+14:12:25,101  INFO Configuration:759 - HHH000221: Reading mappings from resource: co/jp/eureka/persistance/TzPrj.hbm.xml
+14:12:25,129  INFO Configuration:759 - HHH000221: Reading mappings from resource: co/jp/eureka/persistance/MaEngineerkbn.hbm.xml
+14:12:25,138  INFO Configuration:759 - HHH000221: Reading mappings from resource: co/jp/eureka/persistance/MaProjectkbn.hbm.xml
+14:12:25,148  INFO Configuration:2216 - HHH000041: Configured SessionFactory: null
+2016-06-27 14:12:25,149 DEBUG [main] utils.HibernateUtil (HibernateUtil.java:38) - OK2------------------
+2016-06-27 14:12:25,149 DEBUG [main] utils.HibernateUtil (HibernateUtil.java:38) - OK2------------------
+2016-06-27 14:12:25,234 DEBUG [main] utils.HibernateUtil (HibernateUtil.java:43) - OK3------------------
+2016-06-27 14:12:25,234 DEBUG [main] utils.HibernateUtil (HibernateUtil.java:43) - OK3------------------
+14:12:25,242  WARN DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+14:12:25,248  INFO DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/project_db4]
+14:12:25,249  INFO DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+14:12:25,249  INFO DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+14:12:25,251  INFO DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+14:12:25,639  INFO Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+14:12:25,781  INFO TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+14:12:25,787  INFO ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+14:12:25,810 TRACE TypeFactory:72 - Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@31c269fd
+2016-06-27 14:12:26,298 DEBUG [main] utils.HibernateUtil (HibernateUtil.java:45) - -----------Finishing buildingSessionFactory creation--------
+2016-06-27 14:12:26,298 DEBUG [main] utils.HibernateUtil (HibernateUtil.java:45) - -----------Finishing buildingSessionFactory creation--------
+2016-06-27 14:12:26,395 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:40) - persisting MaProjectkbn instance
+2016-06-27 14:12:26,395 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:40) - persisting MaProjectkbn instance
+2016-06-27 14:12:26,464 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:43) - persist successful
+2016-06-27 14:12:26,464 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:43) - persist successful
+2016-06-27 14:12:26,465 DEBUG [main] persistance.ProjectTest (ProjectTest.java:175) - ----Begin skill items option part----
+2016-06-27 14:12:26,465 DEBUG [main] persistance.ProjectTest (ProjectTest.java:175) - ----Begin skill items option part----
+2016-06-27 14:12:26,467 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:42) - persisting MaEngineerkbn instance
+2016-06-27 14:12:26,467 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:42) - persisting MaEngineerkbn instance
+2016-06-27 14:12:26,481 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:45) - persist successful
+2016-06-27 14:12:26,481 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:45) - persist successful
+Hibernate: insert into project_db4.ma_projectkbn (projectkbn_code, projectkbn_name, cre_dtime, upd_dtime, projectkbn_id) values (?, ?, ?, ?, ?)
+14:12:26,533 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [code]
+14:12:26,536 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [name]
+14:12:26,537 TRACE BasicBinder:69 - binding parameter [3] as [TIMESTAMP] - [null]
+14:12:26,539 TRACE BasicBinder:69 - binding parameter [4] as [TIMESTAMP] - [null]
+14:12:26,540 TRACE BasicBinder:81 - binding parameter [5] as [INTEGER] - [2]
+Hibernate: insert into project_db4.ma_engineerkbn (engineerkbn_code, engineerkbn_name, cre_dtime, upd_dtime, ma_engineerkbncol, engineerkbn_id) values (?, ?, ?, ?, ?, ?)
+14:12:26,625 TRACE BasicBinder:69 - binding parameter [1] as [VARCHAR] - [null]
+14:12:26,625 TRACE BasicBinder:69 - binding parameter [2] as [VARCHAR] - [null]
+14:12:26,626 TRACE BasicBinder:69 - binding parameter [3] as [TIMESTAMP] - [null]
+14:12:26,626 TRACE BasicBinder:69 - binding parameter [4] as [TIMESTAMP] - [null]
+14:12:26,627 TRACE BasicBinder:69 - binding parameter [5] as [VARCHAR] - [null]
+14:12:26,627 TRACE BasicBinder:81 - binding parameter [6] as [INTEGER] - [1]
+2016-06-27 14:12:26,637 DEBUG [main] persistance.ProjectTest (ProjectTest.java:181) - -- beanMaEngineerkbn persisted--
+2016-06-27 14:12:26,637 DEBUG [main] persistance.ProjectTest (ProjectTest.java:181) - -- beanMaEngineerkbn persisted--
+2016-06-27 14:12:26,638 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:42) - persisting MaSkillitem instance
+2016-06-27 14:12:26,638 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:42) - persisting MaSkillitem instance
+2016-06-27 14:12:26,641 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:45) - persist successful
+2016-06-27 14:12:26,641 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:45) - persist successful
+Hibernate: insert into project_db4.ma_skillitem (skill_name, skill_dsp_order, category_code, skill_code) values (?, ?, ?, ?)
+14:12:26,644 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Java Programming]
+14:12:26,644 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [1]
+14:12:26,645 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [catCode1]
+14:12:26,645 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [1]
+2016-06-27 14:12:26,650 DEBUG [main] persistance.ProjectTest (ProjectTest.java:186) - -- beanSkillitem persisted--
+2016-06-27 14:12:26,650 DEBUG [main] persistance.ProjectTest (ProjectTest.java:186) - -- beanSkillitem persisted--
+2016-06-27 14:12:26,652 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:40) - persisting MaSkillcategory instance
+2016-06-27 14:12:26,652 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:40) - persisting MaSkillcategory instance
+2016-06-27 14:12:26,653 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:43) - persist successful
+2016-06-27 14:12:26,653 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:43) - persist successful
+Hibernate: insert into project_db4.ma_skillcategory (category_name, category_dsp_order, category_code) values (?, ?, ?)
+14:12:26,656 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [catName2_1]
+14:12:26,656 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [1]
+14:12:26,657 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [catCode1]
+2016-06-27 14:12:26,663 DEBUG [main] persistance.ProjectTest (ProjectTest.java:191) - -- bean_skillCategory persisted--
+2016-06-27 14:12:26,663 DEBUG [main] persistance.ProjectTest (ProjectTest.java:191) - -- bean_skillCategory persisted--
+2016-06-27 14:12:26,665 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:42) - persisting TzPrjNeedsEngineer instance
+2016-06-27 14:12:26,665 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:42) - persisting TzPrjNeedsEngineer instance
+2016-06-27 14:12:26,667 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:45) - persist successful
+2016-06-27 14:12:26,667 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:45) - persist successful
+Hibernate: insert into project_db4.tz_prj_needs_engineer (prj_needs_engineer_number, prj_needs_priod_from, prj_needs_priod_to, prj_needs_engineer_rough_price, prj_needs_engineer_working_place, prj_needs_engineer_etc, prj_needs_engineer_upd_kaisha_id, prj_needs_engineer_upd_user_id, upd_dtime, prj_id, prj_sub_id, prj_needs_engineerkbn_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+14:12:26,669 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [1]
+14:12:26,679 TRACE BasicBinder:81 - binding parameter [2] as [TIMESTAMP] - [Mon Jun 27 14:12:24 JST 2016]
+14:12:26,680 TRACE BasicBinder:69 - binding parameter [3] as [TIMESTAMP] - [null]
+14:12:26,680 TRACE BasicBinder:81 - binding parameter [4] as [INTEGER] - [5000]
+14:12:26,681 TRACE BasicBinder:81 - binding parameter [5] as [VARCHAR] - [Hirooka]
+14:12:26,681 TRACE BasicBinder:81 - binding parameter [6] as [VARCHAR] - [etc needs]
+14:12:26,686 TRACE BasicBinder:81 - binding parameter [7] as [INTEGER] - [7]
+14:12:26,686 TRACE BasicBinder:81 - binding parameter [8] as [INTEGER] - [11]
+14:12:26,688 TRACE BasicBinder:81 - binding parameter [9] as [TIMESTAMP] - [Mon Jun 27 14:12:24 JST 2016]
+14:12:26,688 TRACE BasicBinder:81 - binding parameter [10] as [INTEGER] - [2]
+14:12:26,689 TRACE BasicBinder:81 - binding parameter [11] as [INTEGER] - [11]
+14:12:26,689 TRACE BasicBinder:81 - binding parameter [12] as [INTEGER] - [1]
+2016-06-27 14:12:26,704 DEBUG [main] persistance.ProjectTest (ProjectTest.java:196) - -- beanTzPrjNeedsEngineer persisted--
+2016-06-27 14:12:26,704 DEBUG [main] persistance.ProjectTest (ProjectTest.java:196) - -- beanTzPrjNeedsEngineer persisted--
+2016-06-27 14:12:26,705 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:57) - persisting MaCustomer instance
+2016-06-27 14:12:26,705 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:57) - persisting MaCustomer instance
+persist successful
+2016-06-27 14:12:26,707 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:65) - persist successful
+2016-06-27 14:12:26,707 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:65) - persist successful
+Hibernate: insert into project_db4.ma_customer (customer_code, cuatomer_name, customer_dsp_name, customer_tel, customer_fax, customer_tanto_name, customer_email_addrs, customer_id) values (?, ?, ?, ?, ?, ?, ?, ?)
+14:12:26,709 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [1234]
+14:12:26,709 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [NombrePrj]
+14:12:26,710 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [DspName]
+14:12:26,710 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [4445]
+14:12:26,711 TRACE BasicBinder:81 - binding parameter [5] as [VARCHAR] - [12345677]
+14:12:26,711 TRACE BasicBinder:81 - binding parameter [6] as [VARCHAR] - [tanto]
+14:12:26,711 TRACE BasicBinder:81 - binding parameter [7] as [VARCHAR] - [email@domain.com]
+14:12:26,712 TRACE BasicBinder:81 - binding parameter [8] as [INTEGER] - [1]
+2016-06-27 14:12:26,719 DEBUG [main] persistance.ProjectTest (ProjectTest.java:201) - -- beanmaCustomerBeanppal persisted --
+2016-06-27 14:12:26,719 DEBUG [main] persistance.ProjectTest (ProjectTest.java:201) - -- beanmaCustomerBeanppal persisted --
+14:12:26,719 DEBUG TzPrjHome:39 - persisting TzPrj instance
+Hibernate: select macustomer_.customer_id, macustomer_.customer_code as customer2_0_, macustomer_.cuatomer_name as cuatomer3_0_, macustomer_.customer_dsp_name as customer4_0_, macustomer_.customer_tel as customer5_0_, macustomer_.customer_fax as customer6_0_, macustomer_.customer_tanto_name as customer7_0_, macustomer_.customer_email_addrs as customer8_0_ from project_db4.ma_customer macustomer_ where macustomer_.customer_id=?
+14:12:26,722 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [1]
+14:12:26,726 TRACE BasicExtractor:78 - extracted value ([customer2_0_] : [VARCHAR]) - [1234]
+14:12:26,728 TRACE BasicExtractor:78 - extracted value ([cuatomer3_0_] : [VARCHAR]) - [NombrePrj]
+14:12:26,728 TRACE BasicExtractor:78 - extracted value ([customer4_0_] : [VARCHAR]) - [DspName]
+14:12:26,729 TRACE BasicExtractor:78 - extracted value ([customer5_0_] : [VARCHAR]) - [4445]
+14:12:26,730 TRACE BasicExtractor:78 - extracted value ([customer6_0_] : [VARCHAR]) - [12345677]
+14:12:26,730 TRACE BasicExtractor:78 - extracted value ([customer7_0_] : [VARCHAR]) - [tanto]
+14:12:26,737 TRACE BasicExtractor:78 - extracted value ([customer8_0_] : [VARCHAR]) - [email@domain.com]
+14:12:26,739 DEBUG TzPrjHome:42 - persist successful
+Hibernate: insert into project_db4.tz_prj (prj_customer_id, prj_kbn_id, prj_importance_id, prj_target_id, prj_profitability_id, prj_nearshore_id, prj_strategic_id, prj_enduser_name, prj_name, prj_summary, prj_working_place, prj_delivery_date, prj_security_requirements, prj_etc_requirements, prj_etc, prj_sales_kaisha_id, prj_add_user_id, prj_upd_kaisha_id, prj_upd_user_id, cre_dtime, upd_dtime, pr_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+14:12:26,745 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [1]
+14:12:26,745 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [2]
+14:12:26,746 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [2]
+14:12:26,746 TRACE BasicBinder:81 - binding parameter [4] as [INTEGER] - [0]
+14:12:26,746 TRACE BasicBinder:81 - binding parameter [5] as [INTEGER] - [0]
+14:12:26,747 TRACE BasicBinder:81 - binding parameter [6] as [INTEGER] - [0]
+14:12:26,747 TRACE BasicBinder:81 - binding parameter [7] as [INTEGER] - [0]
+14:12:26,747 TRACE BasicBinder:69 - binding parameter [8] as [VARCHAR] - [null]
+14:12:26,748 TRACE BasicBinder:81 - binding parameter [9] as [VARCHAR] - [project aiko]
+14:12:26,748 TRACE BasicBinder:81 - binding parameter [10] as [VARCHAR] - [summary]
+14:12:26,748 TRACE BasicBinder:69 - binding parameter [11] as [VARCHAR] - [null]
+14:12:26,749 TRACE BasicBinder:69 - binding parameter [12] as [DATE] - [null]
+14:12:26,749 TRACE BasicBinder:69 - binding parameter [13] as [VARCHAR] - [null]
+14:12:26,750 TRACE BasicBinder:69 - binding parameter [14] as [VARCHAR] - [null]
+14:12:26,751 TRACE BasicBinder:69 - binding parameter [15] as [VARCHAR] - [null]
+14:12:26,751 TRACE BasicBinder:69 - binding parameter [16] as [INTEGER] - [null]
+14:12:26,752 TRACE BasicBinder:81 - binding parameter [17] as [INTEGER] - [192]
+14:12:26,752 TRACE BasicBinder:81 - binding parameter [18] as [INTEGER] - [22]
+14:12:26,752 TRACE BasicBinder:81 - binding parameter [19] as [INTEGER] - [5]
+14:12:26,753 TRACE BasicBinder:81 - binding parameter [20] as [DATE] - [Mon Jun 27 14:12:24 JST 2016]
+14:12:26,754 TRACE BasicBinder:81 - binding parameter [21] as [DATE] - [Mon Jun 27 14:12:24 JST 2016]
+14:12:26,755 TRACE BasicBinder:81 - binding parameter [22] as [INTEGER] - [2]
+2016-06-27 14:12:26,761 DEBUG [main] persistance.ProjectTest (ProjectTest.java:205) - -- bean beanTzPrj persisted --
+2016-06-27 14:12:26,761 DEBUG [main] persistance.ProjectTest (ProjectTest.java:205) - -- bean beanTzPrj persisted --
+2016-06-27 14:12:26,764 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:43) - persisting TzPrjNeedsSkill instance
+2016-06-27 14:12:26,764 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:43) - persisting TzPrjNeedsSkill instance
+2016-06-27 14:12:26,765 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:46) - persist successful
+2016-06-27 14:12:26,765 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:46) - persist successful
+Hibernate: insert into project_db4.tz_prj_needs_skill (prj_needs_skill_category_code, prj_needs_skill_code, prj_needs_skill_level, prj_needs_skill_upd_kaisha_id, prj_needs_skill_upd_user_id, upd_dtime, prj_id, prj_sub_id, tz_prj_needs_engineerkbn_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+14:12:26,775 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [catCode1]
+14:12:26,785 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [1]
+14:12:26,785 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [25]
+14:12:26,786 TRACE BasicBinder:81 - binding parameter [4] as [INTEGER] - [7]
+14:12:26,786 TRACE BasicBinder:81 - binding parameter [5] as [INTEGER] - [11]
+14:12:26,786 TRACE BasicBinder:81 - binding parameter [6] as [TIMESTAMP] - [Mon Jun 27 14:12:24 JST 2016]
+14:12:26,787 TRACE BasicBinder:81 - binding parameter [7] as [INTEGER] - [2]
+14:12:26,787 TRACE BasicBinder:81 - binding parameter [8] as [INTEGER] - [11]
+14:12:26,788 TRACE BasicBinder:81 - binding parameter [9] as [INTEGER] - [1]
+2016-06-27 14:12:26,798 DEBUG [main] persistance.ProjectTest (ProjectTest.java:211) - -- beanTzPrjNeedsSkill persisted--
+2016-06-27 14:12:26,798 DEBUG [main] persistance.ProjectTest (ProjectTest.java:211) - -- beanTzPrjNeedsSkill persisted--
+2016-06-27 14:12:26,808 DEBUG [main] persistance.ProjectTest (ProjectTest.java:214) - -- beanTzPrj persisted--
+2016-06-27 14:12:26,808 DEBUG [main] persistance.ProjectTest (ProjectTest.java:214) - -- beanTzPrj persisted--
+2016-06-27 14:12:26,809 DEBUG [main] persistance.ProjectTest (ProjectTest.java:216) - --End of testProject_createWithSkills--
+2016-06-27 14:12:26,809 DEBUG [main] persistance.ProjectTest (ProjectTest.java:216) - --End of testProject_createWithSkills--
+2016-06-27 14:12:26,810 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:40) - persisting MaProjectkbn instance
+2016-06-27 14:12:26,810 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:40) - persisting MaProjectkbn instance
+2016-06-27 14:12:26,811 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:43) - persist successful
+2016-06-27 14:12:26,811 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:43) - persist successful
+2016-06-27 14:12:26,811 DEBUG [main] persistance.ProjectTest (ProjectTest.java:175) - ----Begin skill items option part----
+2016-06-27 14:12:26,811 DEBUG [main] persistance.ProjectTest (ProjectTest.java:175) - ----Begin skill items option part----
+2016-06-27 14:12:26,812 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:42) - persisting MaEngineerkbn instance
+2016-06-27 14:12:26,812 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:42) - persisting MaEngineerkbn instance
+2016-06-27 14:12:26,812 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:45) - persist successful
+2016-06-27 14:12:26,812 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:45) - persist successful
+Hibernate: insert into project_db4.ma_projectkbn (projectkbn_code, projectkbn_name, cre_dtime, upd_dtime, projectkbn_id) values (?, ?, ?, ?, ?)
+14:12:26,813 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [code]
+14:12:26,814 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [name]
+14:12:26,814 TRACE BasicBinder:69 - binding parameter [3] as [TIMESTAMP] - [null]
+14:12:26,815 TRACE BasicBinder:69 - binding parameter [4] as [TIMESTAMP] - [null]
+14:12:26,815 TRACE BasicBinder:81 - binding parameter [5] as [INTEGER] - [3]
+Hibernate: insert into project_db4.ma_engineerkbn (engineerkbn_code, engineerkbn_name, cre_dtime, upd_dtime, ma_engineerkbncol, engineerkbn_id) values (?, ?, ?, ?, ?, ?)
+14:12:26,842 TRACE BasicBinder:69 - binding parameter [1] as [VARCHAR] - [null]
+14:12:26,842 TRACE BasicBinder:69 - binding parameter [2] as [VARCHAR] - [null]
+14:12:26,842 TRACE BasicBinder:69 - binding parameter [3] as [TIMESTAMP] - [null]
+14:12:26,843 TRACE BasicBinder:69 - binding parameter [4] as [TIMESTAMP] - [null]
+14:12:26,843 TRACE BasicBinder:69 - binding parameter [5] as [VARCHAR] - [null]
+14:12:26,843 TRACE BasicBinder:81 - binding parameter [6] as [INTEGER] - [2]
+2016-06-27 14:12:26,845 DEBUG [main] persistance.ProjectTest (ProjectTest.java:181) - -- beanMaEngineerkbn persisted--
+2016-06-27 14:12:26,845 DEBUG [main] persistance.ProjectTest (ProjectTest.java:181) - -- beanMaEngineerkbn persisted--
+2016-06-27 14:12:26,846 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:42) - persisting MaSkillitem instance
+2016-06-27 14:12:26,846 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:42) - persisting MaSkillitem instance
+2016-06-27 14:12:26,847 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:45) - persist successful
+2016-06-27 14:12:26,847 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:45) - persist successful
+Hibernate: insert into project_db4.ma_skillitem (skill_name, skill_dsp_order, category_code, skill_code) values (?, ?, ?, ?)
+14:12:26,852 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Java Programming]
+14:12:26,852 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [1]
+14:12:26,853 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [catCode2]
+14:12:26,853 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [2]
+2016-06-27 14:12:26,866 DEBUG [main] persistance.ProjectTest (ProjectTest.java:186) - -- beanSkillitem persisted--
+2016-06-27 14:12:26,866 DEBUG [main] persistance.ProjectTest (ProjectTest.java:186) - -- beanSkillitem persisted--
+2016-06-27 14:12:26,867 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:40) - persisting MaSkillcategory instance
+2016-06-27 14:12:26,867 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:40) - persisting MaSkillcategory instance
+2016-06-27 14:12:26,868 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:43) - persist successful
+2016-06-27 14:12:26,868 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:43) - persist successful
+Hibernate: insert into project_db4.ma_skillcategory (category_name, category_dsp_order, category_code) values (?, ?, ?)
+14:12:26,869 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [catName2_2]
+14:12:26,870 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [1]
+14:12:26,870 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [catCode2]
+2016-06-27 14:12:26,875 DEBUG [main] persistance.ProjectTest (ProjectTest.java:191) - -- bean_skillCategory persisted--
+2016-06-27 14:12:26,875 DEBUG [main] persistance.ProjectTest (ProjectTest.java:191) - -- bean_skillCategory persisted--
+2016-06-27 14:12:26,876 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:42) - persisting TzPrjNeedsEngineer instance
+2016-06-27 14:12:26,876 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:42) - persisting TzPrjNeedsEngineer instance
+2016-06-27 14:12:26,877 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:45) - persist successful
+2016-06-27 14:12:26,877 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:45) - persist successful
+Hibernate: insert into project_db4.tz_prj_needs_engineer (prj_needs_engineer_number, prj_needs_priod_from, prj_needs_priod_to, prj_needs_engineer_rough_price, prj_needs_engineer_working_place, prj_needs_engineer_etc, prj_needs_engineer_upd_kaisha_id, prj_needs_engineer_upd_user_id, upd_dtime, prj_id, prj_sub_id, prj_needs_engineerkbn_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+14:12:26,879 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [1]
+14:12:26,880 TRACE BasicBinder:81 - binding parameter [2] as [TIMESTAMP] - [Mon Jun 27 14:12:26 JST 2016]
+14:12:26,881 TRACE BasicBinder:69 - binding parameter [3] as [TIMESTAMP] - [null]
+14:12:26,881 TRACE BasicBinder:81 - binding parameter [4] as [INTEGER] - [5000]
+14:12:26,881 TRACE BasicBinder:81 - binding parameter [5] as [VARCHAR] - [Hirooka]
+14:12:26,882 TRACE BasicBinder:81 - binding parameter [6] as [VARCHAR] - [etc needs]
+14:12:26,882 TRACE BasicBinder:81 - binding parameter [7] as [INTEGER] - [7]
+14:12:26,882 TRACE BasicBinder:81 - binding parameter [8] as [INTEGER] - [11]
+14:12:26,883 TRACE BasicBinder:81 - binding parameter [9] as [TIMESTAMP] - [Mon Jun 27 14:12:26 JST 2016]
+14:12:26,883 TRACE BasicBinder:81 - binding parameter [10] as [INTEGER] - [3]
+14:12:26,883 TRACE BasicBinder:81 - binding parameter [11] as [INTEGER] - [22]
+14:12:26,884 TRACE BasicBinder:81 - binding parameter [12] as [INTEGER] - [2]
+2016-06-27 14:12:26,902 DEBUG [main] persistance.ProjectTest (ProjectTest.java:196) - -- beanTzPrjNeedsEngineer persisted--
+2016-06-27 14:12:26,902 DEBUG [main] persistance.ProjectTest (ProjectTest.java:196) - -- beanTzPrjNeedsEngineer persisted--
+2016-06-27 14:12:26,903 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:57) - persisting MaCustomer instance
+2016-06-27 14:12:26,903 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:57) - persisting MaCustomer instance
+persist successful
+2016-06-27 14:12:26,904 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:65) - persist successful
+2016-06-27 14:12:26,904 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:65) - persist successful
+Hibernate: insert into project_db4.ma_customer (customer_code, cuatomer_name, customer_dsp_name, customer_tel, customer_fax, customer_tanto_name, customer_email_addrs, customer_id) values (?, ?, ?, ?, ?, ?, ?, ?)
+14:12:26,906 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [1234]
+14:12:26,907 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [NombrePrj]
+14:12:26,907 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [DspName]
+14:12:26,908 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [4445]
+14:12:26,909 TRACE BasicBinder:81 - binding parameter [5] as [VARCHAR] - [12345677]
+14:12:26,909 TRACE BasicBinder:81 - binding parameter [6] as [VARCHAR] - [tanto]
+14:12:26,910 TRACE BasicBinder:81 - binding parameter [7] as [VARCHAR] - [email@domain.com]
+14:12:26,910 TRACE BasicBinder:81 - binding parameter [8] as [INTEGER] - [2]
+2016-06-27 14:12:26,914 DEBUG [main] persistance.ProjectTest (ProjectTest.java:201) - -- beanmaCustomerBeanppal persisted --
+2016-06-27 14:12:26,914 DEBUG [main] persistance.ProjectTest (ProjectTest.java:201) - -- beanmaCustomerBeanppal persisted --
+14:12:26,915 DEBUG TzPrjHome:39 - persisting TzPrj instance
+Hibernate: select macustomer_.customer_id, macustomer_.customer_code as customer2_0_, macustomer_.cuatomer_name as cuatomer3_0_, macustomer_.customer_dsp_name as customer4_0_, macustomer_.customer_tel as customer5_0_, macustomer_.customer_fax as customer6_0_, macustomer_.customer_tanto_name as customer7_0_, macustomer_.customer_email_addrs as customer8_0_ from project_db4.ma_customer macustomer_ where macustomer_.customer_id=?
+14:12:26,917 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [2]
+14:12:26,920 TRACE BasicExtractor:78 - extracted value ([customer2_0_] : [VARCHAR]) - [1234]
+14:12:26,920 TRACE BasicExtractor:78 - extracted value ([cuatomer3_0_] : [VARCHAR]) - [NombrePrj]
+14:12:26,920 TRACE BasicExtractor:78 - extracted value ([customer4_0_] : [VARCHAR]) - [DspName]
+14:12:26,921 TRACE BasicExtractor:78 - extracted value ([customer5_0_] : [VARCHAR]) - [4445]
+14:12:26,921 TRACE BasicExtractor:78 - extracted value ([customer6_0_] : [VARCHAR]) - [12345677]
+14:12:26,922 TRACE BasicExtractor:78 - extracted value ([customer7_0_] : [VARCHAR]) - [tanto]
+14:12:26,922 TRACE BasicExtractor:78 - extracted value ([customer8_0_] : [VARCHAR]) - [email@domain.com]
+14:12:26,923 DEBUG TzPrjHome:42 - persist successful
+Hibernate: insert into project_db4.tz_prj (prj_customer_id, prj_kbn_id, prj_importance_id, prj_target_id, prj_profitability_id, prj_nearshore_id, prj_strategic_id, prj_enduser_name, prj_name, prj_summary, prj_working_place, prj_delivery_date, prj_security_requirements, prj_etc_requirements, prj_etc, prj_sales_kaisha_id, prj_add_user_id, prj_upd_kaisha_id, prj_upd_user_id, cre_dtime, upd_dtime, pr_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+14:12:26,929 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [2]
+14:12:26,930 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [3]
+14:12:26,932 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [2]
+14:12:26,932 TRACE BasicBinder:81 - binding parameter [4] as [INTEGER] - [0]
+14:12:26,935 TRACE BasicBinder:81 - binding parameter [5] as [INTEGER] - [0]
+14:12:26,935 TRACE BasicBinder:81 - binding parameter [6] as [INTEGER] - [0]
+14:12:26,936 TRACE BasicBinder:81 - binding parameter [7] as [INTEGER] - [0]
+14:12:26,936 TRACE BasicBinder:69 - binding parameter [8] as [VARCHAR] - [null]
+14:12:26,955 TRACE BasicBinder:81 - binding parameter [9] as [VARCHAR] - [project aiko]
+14:12:26,958 TRACE BasicBinder:81 - binding parameter [10] as [VARCHAR] - [summary]
+14:12:26,958 TRACE BasicBinder:69 - binding parameter [11] as [VARCHAR] - [null]
+14:12:26,959 TRACE BasicBinder:69 - binding parameter [12] as [DATE] - [null]
+14:12:26,959 TRACE BasicBinder:69 - binding parameter [13] as [VARCHAR] - [null]
+14:12:26,959 TRACE BasicBinder:69 - binding parameter [14] as [VARCHAR] - [null]
+14:12:26,960 TRACE BasicBinder:69 - binding parameter [15] as [VARCHAR] - [null]
+14:12:26,960 TRACE BasicBinder:69 - binding parameter [16] as [INTEGER] - [null]
+14:12:26,960 TRACE BasicBinder:81 - binding parameter [17] as [INTEGER] - [192]
+14:12:26,960 TRACE BasicBinder:81 - binding parameter [18] as [INTEGER] - [22]
+14:12:26,961 TRACE BasicBinder:81 - binding parameter [19] as [INTEGER] - [5]
+14:12:26,961 TRACE BasicBinder:81 - binding parameter [20] as [DATE] - [Mon Jun 27 14:12:26 JST 2016]
+14:12:26,961 TRACE BasicBinder:81 - binding parameter [21] as [DATE] - [Mon Jun 27 14:12:26 JST 2016]
+14:12:26,962 TRACE BasicBinder:81 - binding parameter [22] as [INTEGER] - [3]
+2016-06-27 14:12:26,963 DEBUG [main] persistance.ProjectTest (ProjectTest.java:205) - -- bean beanTzPrj persisted --
+2016-06-27 14:12:26,963 DEBUG [main] persistance.ProjectTest (ProjectTest.java:205) - -- bean beanTzPrj persisted --
+2016-06-27 14:12:26,964 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:43) - persisting TzPrjNeedsSkill instance
+2016-06-27 14:12:26,964 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:43) - persisting TzPrjNeedsSkill instance
+2016-06-27 14:12:26,965 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:46) - persist successful
+2016-06-27 14:12:26,965 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:46) - persist successful
+Hibernate: insert into project_db4.tz_prj_needs_skill (prj_needs_skill_category_code, prj_needs_skill_code, prj_needs_skill_level, prj_needs_skill_upd_kaisha_id, prj_needs_skill_upd_user_id, upd_dtime, prj_id, prj_sub_id, tz_prj_needs_engineerkbn_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+14:12:26,967 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [catCode2]
+14:12:26,968 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [2]
+14:12:26,968 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [25]
+14:12:26,968 TRACE BasicBinder:81 - binding parameter [4] as [INTEGER] - [7]
+14:12:26,969 TRACE BasicBinder:81 - binding parameter [5] as [INTEGER] - [11]
+14:12:26,969 TRACE BasicBinder:81 - binding parameter [6] as [TIMESTAMP] - [Mon Jun 27 14:12:26 JST 2016]
+14:12:26,972 TRACE BasicBinder:81 - binding parameter [7] as [INTEGER] - [3]
+14:12:26,972 TRACE BasicBinder:81 - binding parameter [8] as [INTEGER] - [22]
+14:12:26,972 TRACE BasicBinder:81 - binding parameter [9] as [INTEGER] - [2]
+2016-06-27 14:12:27,005 DEBUG [main] persistance.ProjectTest (ProjectTest.java:211) - -- beanTzPrjNeedsSkill persisted--
+2016-06-27 14:12:27,005 DEBUG [main] persistance.ProjectTest (ProjectTest.java:211) - -- beanTzPrjNeedsSkill persisted--
+2016-06-27 14:12:27,013 DEBUG [main] persistance.ProjectTest (ProjectTest.java:214) - -- beanTzPrj persisted--
+2016-06-27 14:12:27,013 DEBUG [main] persistance.ProjectTest (ProjectTest.java:214) - -- beanTzPrj persisted--
+2016-06-27 14:12:27,014 DEBUG [main] persistance.ProjectTest (ProjectTest.java:216) - --End of testProject_createWithSkills--
+2016-06-27 14:12:27,014 DEBUG [main] persistance.ProjectTest (ProjectTest.java:216) - --End of testProject_createWithSkills--
+2016-06-27 14:12:27,015 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:40) - persisting MaProjectkbn instance
+2016-06-27 14:12:27,015 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:40) - persisting MaProjectkbn instance
+2016-06-27 14:12:27,017 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:43) - persist successful
+2016-06-27 14:12:27,017 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:43) - persist successful
+2016-06-27 14:12:27,018 DEBUG [main] persistance.ProjectTest (ProjectTest.java:175) - ----Begin skill items option part----
+2016-06-27 14:12:27,018 DEBUG [main] persistance.ProjectTest (ProjectTest.java:175) - ----Begin skill items option part----
+2016-06-27 14:12:27,018 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:42) - persisting MaEngineerkbn instance
+2016-06-27 14:12:27,018 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:42) - persisting MaEngineerkbn instance
+2016-06-27 14:12:27,019 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:45) - persist successful
+2016-06-27 14:12:27,019 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:45) - persist successful
+Hibernate: insert into project_db4.ma_projectkbn (projectkbn_code, projectkbn_name, cre_dtime, upd_dtime, projectkbn_id) values (?, ?, ?, ?, ?)
+14:12:27,025 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [code]
+14:12:27,026 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [name]
+14:12:27,026 TRACE BasicBinder:69 - binding parameter [3] as [TIMESTAMP] - [null]
+14:12:27,026 TRACE BasicBinder:69 - binding parameter [4] as [TIMESTAMP] - [null]
+14:12:27,026 TRACE BasicBinder:81 - binding parameter [5] as [INTEGER] - [4]
+Hibernate: insert into project_db4.ma_engineerkbn (engineerkbn_code, engineerkbn_name, cre_dtime, upd_dtime, ma_engineerkbncol, engineerkbn_id) values (?, ?, ?, ?, ?, ?)
+14:12:27,029 TRACE BasicBinder:69 - binding parameter [1] as [VARCHAR] - [null]
+14:12:27,029 TRACE BasicBinder:69 - binding parameter [2] as [VARCHAR] - [null]
+14:12:27,030 TRACE BasicBinder:69 - binding parameter [3] as [TIMESTAMP] - [null]
+14:12:27,030 TRACE BasicBinder:69 - binding parameter [4] as [TIMESTAMP] - [null]
+14:12:27,030 TRACE BasicBinder:69 - binding parameter [5] as [VARCHAR] - [null]
+14:12:27,030 TRACE BasicBinder:81 - binding parameter [6] as [INTEGER] - [3]
+2016-06-27 14:12:27,031 DEBUG [main] persistance.ProjectTest (ProjectTest.java:181) - -- beanMaEngineerkbn persisted--
+2016-06-27 14:12:27,031 DEBUG [main] persistance.ProjectTest (ProjectTest.java:181) - -- beanMaEngineerkbn persisted--
+2016-06-27 14:12:27,032 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:42) - persisting MaSkillitem instance
+2016-06-27 14:12:27,032 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:42) - persisting MaSkillitem instance
+2016-06-27 14:12:27,033 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:45) - persist successful
+2016-06-27 14:12:27,033 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:45) - persist successful
+Hibernate: insert into project_db4.ma_skillitem (skill_name, skill_dsp_order, category_code, skill_code) values (?, ?, ?, ?)
+14:12:27,037 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Java Programming]
+14:12:27,038 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [1]
+14:12:27,038 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [catCode3]
+14:12:27,039 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [3]
+2016-06-27 14:12:27,046 DEBUG [main] persistance.ProjectTest (ProjectTest.java:186) - -- beanSkillitem persisted--
+2016-06-27 14:12:27,046 DEBUG [main] persistance.ProjectTest (ProjectTest.java:186) - -- beanSkillitem persisted--
+2016-06-27 14:12:27,046 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:40) - persisting MaSkillcategory instance
+2016-06-27 14:12:27,046 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:40) - persisting MaSkillcategory instance
+2016-06-27 14:12:27,047 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:43) - persist successful
+2016-06-27 14:12:27,047 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:43) - persist successful
+Hibernate: insert into project_db4.ma_skillcategory (category_name, category_dsp_order, category_code) values (?, ?, ?)
+14:12:27,049 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [catName2_3]
+14:12:27,049 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [1]
+14:12:27,049 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [catCode3]
+2016-06-27 14:12:27,053 DEBUG [main] persistance.ProjectTest (ProjectTest.java:191) - -- bean_skillCategory persisted--
+2016-06-27 14:12:27,053 DEBUG [main] persistance.ProjectTest (ProjectTest.java:191) - -- bean_skillCategory persisted--
+2016-06-27 14:12:27,054 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:42) - persisting TzPrjNeedsEngineer instance
+2016-06-27 14:12:27,054 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:42) - persisting TzPrjNeedsEngineer instance
+2016-06-27 14:12:27,055 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:45) - persist successful
+2016-06-27 14:12:27,055 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:45) - persist successful
+Hibernate: insert into project_db4.tz_prj_needs_engineer (prj_needs_engineer_number, prj_needs_priod_from, prj_needs_priod_to, prj_needs_engineer_rough_price, prj_needs_engineer_working_place, prj_needs_engineer_etc, prj_needs_engineer_upd_kaisha_id, prj_needs_engineer_upd_user_id, upd_dtime, prj_id, prj_sub_id, prj_needs_engineerkbn_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+14:12:27,056 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [1]
+14:12:27,057 TRACE BasicBinder:81 - binding parameter [2] as [TIMESTAMP] - [Mon Jun 27 14:12:27 JST 2016]
+14:12:27,057 TRACE BasicBinder:69 - binding parameter [3] as [TIMESTAMP] - [null]
+14:12:27,058 TRACE BasicBinder:81 - binding parameter [4] as [INTEGER] - [5000]
+14:12:27,059 TRACE BasicBinder:81 - binding parameter [5] as [VARCHAR] - [Hirooka]
+14:12:27,059 TRACE BasicBinder:81 - binding parameter [6] as [VARCHAR] - [etc needs]
+14:12:27,060 TRACE BasicBinder:81 - binding parameter [7] as [INTEGER] - [7]
+14:12:27,060 TRACE BasicBinder:81 - binding parameter [8] as [INTEGER] - [11]
+14:12:27,061 TRACE BasicBinder:81 - binding parameter [9] as [TIMESTAMP] - [Mon Jun 27 14:12:27 JST 2016]
+14:12:27,061 TRACE BasicBinder:81 - binding parameter [10] as [INTEGER] - [4]
+14:12:27,062 TRACE BasicBinder:81 - binding parameter [11] as [INTEGER] - [33]
+14:12:27,062 TRACE BasicBinder:81 - binding parameter [12] as [INTEGER] - [3]
+2016-06-27 14:12:27,064 DEBUG [main] persistance.ProjectTest (ProjectTest.java:196) - -- beanTzPrjNeedsEngineer persisted--
+2016-06-27 14:12:27,064 DEBUG [main] persistance.ProjectTest (ProjectTest.java:196) - -- beanTzPrjNeedsEngineer persisted--
+2016-06-27 14:12:27,065 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:57) - persisting MaCustomer instance
+2016-06-27 14:12:27,065 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:57) - persisting MaCustomer instance
+persist successful
+2016-06-27 14:12:27,066 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:65) - persist successful
+2016-06-27 14:12:27,066 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:65) - persist successful
+Hibernate: insert into project_db4.ma_customer (customer_code, cuatomer_name, customer_dsp_name, customer_tel, customer_fax, customer_tanto_name, customer_email_addrs, customer_id) values (?, ?, ?, ?, ?, ?, ?, ?)
+14:12:27,067 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [1234]
+14:12:27,068 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [NombrePrj]
+14:12:27,068 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [DspName]
+14:12:27,068 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [4445]
+14:12:27,069 TRACE BasicBinder:81 - binding parameter [5] as [VARCHAR] - [12345677]
+14:12:27,069 TRACE BasicBinder:81 - binding parameter [6] as [VARCHAR] - [tanto]
+14:12:27,069 TRACE BasicBinder:81 - binding parameter [7] as [VARCHAR] - [email@domain.com]
+14:12:27,070 TRACE BasicBinder:81 - binding parameter [8] as [INTEGER] - [3]
+2016-06-27 14:12:27,108 DEBUG [main] persistance.ProjectTest (ProjectTest.java:201) - -- beanmaCustomerBeanppal persisted --
+2016-06-27 14:12:27,108 DEBUG [main] persistance.ProjectTest (ProjectTest.java:201) - -- beanmaCustomerBeanppal persisted --
+14:12:27,109 DEBUG TzPrjHome:39 - persisting TzPrj instance
+Hibernate: select macustomer_.customer_id, macustomer_.customer_code as customer2_0_, macustomer_.cuatomer_name as cuatomer3_0_, macustomer_.customer_dsp_name as customer4_0_, macustomer_.customer_tel as customer5_0_, macustomer_.customer_fax as customer6_0_, macustomer_.customer_tanto_name as customer7_0_, macustomer_.customer_email_addrs as customer8_0_ from project_db4.ma_customer macustomer_ where macustomer_.customer_id=?
+14:12:27,110 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [3]
+14:12:27,115 TRACE BasicExtractor:78 - extracted value ([customer2_0_] : [VARCHAR]) - [1234]
+14:12:27,116 TRACE BasicExtractor:78 - extracted value ([cuatomer3_0_] : [VARCHAR]) - [NombrePrj]
+14:12:27,116 TRACE BasicExtractor:78 - extracted value ([customer4_0_] : [VARCHAR]) - [DspName]
+14:12:27,116 TRACE BasicExtractor:78 - extracted value ([customer5_0_] : [VARCHAR]) - [4445]
+14:12:27,117 TRACE BasicExtractor:78 - extracted value ([customer6_0_] : [VARCHAR]) - [12345677]
+14:12:27,117 TRACE BasicExtractor:78 - extracted value ([customer7_0_] : [VARCHAR]) - [tanto]
+14:12:27,117 TRACE BasicExtractor:78 - extracted value ([customer8_0_] : [VARCHAR]) - [email@domain.com]
+14:12:27,119 DEBUG TzPrjHome:42 - persist successful
+Hibernate: insert into project_db4.tz_prj (prj_customer_id, prj_kbn_id, prj_importance_id, prj_target_id, prj_profitability_id, prj_nearshore_id, prj_strategic_id, prj_enduser_name, prj_name, prj_summary, prj_working_place, prj_delivery_date, prj_security_requirements, prj_etc_requirements, prj_etc, prj_sales_kaisha_id, prj_add_user_id, prj_upd_kaisha_id, prj_upd_user_id, cre_dtime, upd_dtime, pr_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+14:12:27,133 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [3]
+14:12:27,133 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4]
+14:12:27,134 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [2]
+14:12:27,134 TRACE BasicBinder:81 - binding parameter [4] as [INTEGER] - [0]
+14:12:27,134 TRACE BasicBinder:81 - binding parameter [5] as [INTEGER] - [0]
+14:12:27,134 TRACE BasicBinder:81 - binding parameter [6] as [INTEGER] - [0]
+14:12:27,135 TRACE BasicBinder:81 - binding parameter [7] as [INTEGER] - [0]
+14:12:27,135 TRACE BasicBinder:69 - binding parameter [8] as [VARCHAR] - [null]
+14:12:27,135 TRACE BasicBinder:81 - binding parameter [9] as [VARCHAR] - [project aiko]
+14:12:27,135 TRACE BasicBinder:81 - binding parameter [10] as [VARCHAR] - [summary]
+14:12:27,136 TRACE BasicBinder:69 - binding parameter [11] as [VARCHAR] - [null]
+14:12:27,136 TRACE BasicBinder:69 - binding parameter [12] as [DATE] - [null]
+14:12:27,136 TRACE BasicBinder:69 - binding parameter [13] as [VARCHAR] - [null]
+14:12:27,136 TRACE BasicBinder:69 - binding parameter [14] as [VARCHAR] - [null]
+14:12:27,136 TRACE BasicBinder:69 - binding parameter [15] as [VARCHAR] - [null]
+14:12:27,137 TRACE BasicBinder:69 - binding parameter [16] as [INTEGER] - [null]
+14:12:27,137 TRACE BasicBinder:81 - binding parameter [17] as [INTEGER] - [192]
+14:12:27,137 TRACE BasicBinder:81 - binding parameter [18] as [INTEGER] - [22]
+14:12:27,137 TRACE BasicBinder:81 - binding parameter [19] as [INTEGER] - [5]
+14:12:27,139 TRACE BasicBinder:81 - binding parameter [20] as [DATE] - [Mon Jun 27 14:12:27 JST 2016]
+14:12:27,139 TRACE BasicBinder:81 - binding parameter [21] as [DATE] - [Mon Jun 27 14:12:27 JST 2016]
+14:12:27,140 TRACE BasicBinder:81 - binding parameter [22] as [INTEGER] - [4]
+2016-06-27 14:12:27,183 DEBUG [main] persistance.ProjectTest (ProjectTest.java:205) - -- bean beanTzPrj persisted --
+2016-06-27 14:12:27,183 DEBUG [main] persistance.ProjectTest (ProjectTest.java:205) - -- bean beanTzPrj persisted --
+2016-06-27 14:12:27,183 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:43) - persisting TzPrjNeedsSkill instance
+2016-06-27 14:12:27,183 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:43) - persisting TzPrjNeedsSkill instance
+2016-06-27 14:12:27,184 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:46) - persist successful
+2016-06-27 14:12:27,184 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:46) - persist successful
+Hibernate: insert into project_db4.tz_prj_needs_skill (prj_needs_skill_category_code, prj_needs_skill_code, prj_needs_skill_level, prj_needs_skill_upd_kaisha_id, prj_needs_skill_upd_user_id, upd_dtime, prj_id, prj_sub_id, tz_prj_needs_engineerkbn_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+14:12:27,186 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [catCode3]
+14:12:27,186 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [3]
+14:12:27,187 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [25]
+14:12:27,187 TRACE BasicBinder:81 - binding parameter [4] as [INTEGER] - [7]
+14:12:27,187 TRACE BasicBinder:81 - binding parameter [5] as [INTEGER] - [11]
+14:12:27,187 TRACE BasicBinder:81 - binding parameter [6] as [TIMESTAMP] - [Mon Jun 27 14:12:27 JST 2016]
+14:12:27,188 TRACE BasicBinder:81 - binding parameter [7] as [INTEGER] - [4]
+14:12:27,188 TRACE BasicBinder:81 - binding parameter [8] as [INTEGER] - [33]
+14:12:27,188 TRACE BasicBinder:81 - binding parameter [9] as [INTEGER] - [3]
+2016-06-27 14:12:27,190 DEBUG [main] persistance.ProjectTest (ProjectTest.java:211) - -- beanTzPrjNeedsSkill persisted--
+2016-06-27 14:12:27,190 DEBUG [main] persistance.ProjectTest (ProjectTest.java:211) - -- beanTzPrjNeedsSkill persisted--
+2016-06-27 14:12:27,198 DEBUG [main] persistance.ProjectTest (ProjectTest.java:214) - -- beanTzPrj persisted--
+2016-06-27 14:12:27,198 DEBUG [main] persistance.ProjectTest (ProjectTest.java:214) - -- beanTzPrj persisted--
+2016-06-27 14:12:27,199 DEBUG [main] persistance.ProjectTest (ProjectTest.java:216) - --End of testProject_createWithSkills--
+2016-06-27 14:12:27,199 DEBUG [main] persistance.ProjectTest (ProjectTest.java:216) - --End of testProject_createWithSkills--
+2016-06-27 14:12:27,200 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:40) - persisting MaProjectkbn instance
+2016-06-27 14:12:27,200 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:40) - persisting MaProjectkbn instance
+2016-06-27 14:12:27,200 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:43) - persist successful
+2016-06-27 14:12:27,200 DEBUG [main] persistance.MaProjectkbnHome (MaProjectkbnHome.java:43) - persist successful
+2016-06-27 14:12:27,201 DEBUG [main] persistance.ProjectTest (ProjectTest.java:175) - ----Begin skill items option part----
+2016-06-27 14:12:27,201 DEBUG [main] persistance.ProjectTest (ProjectTest.java:175) - ----Begin skill items option part----
+2016-06-27 14:12:27,201 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:42) - persisting MaEngineerkbn instance
+2016-06-27 14:12:27,201 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:42) - persisting MaEngineerkbn instance
+2016-06-27 14:12:27,201 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:45) - persist successful
+2016-06-27 14:12:27,201 DEBUG [main] persistance.MaEngineerkbnHome (MaEngineerkbnHome.java:45) - persist successful
+Hibernate: insert into project_db4.ma_projectkbn (projectkbn_code, projectkbn_name, cre_dtime, upd_dtime, projectkbn_id) values (?, ?, ?, ?, ?)
+14:12:27,202 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [code]
+14:12:27,203 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [name]
+14:12:27,203 TRACE BasicBinder:69 - binding parameter [3] as [TIMESTAMP] - [null]
+14:12:27,203 TRACE BasicBinder:69 - binding parameter [4] as [TIMESTAMP] - [null]
+14:12:27,203 TRACE BasicBinder:81 - binding parameter [5] as [INTEGER] - [5]
+Hibernate: insert into project_db4.ma_engineerkbn (engineerkbn_code, engineerkbn_name, cre_dtime, upd_dtime, ma_engineerkbncol, engineerkbn_id) values (?, ?, ?, ?, ?, ?)
+14:12:27,237 TRACE BasicBinder:69 - binding parameter [1] as [VARCHAR] - [null]
+14:12:27,237 TRACE BasicBinder:69 - binding parameter [2] as [VARCHAR] - [null]
+14:12:27,238 TRACE BasicBinder:69 - binding parameter [3] as [TIMESTAMP] - [null]
+14:12:27,238 TRACE BasicBinder:69 - binding parameter [4] as [TIMESTAMP] - [null]
+14:12:27,238 TRACE BasicBinder:69 - binding parameter [5] as [VARCHAR] - [null]
+14:12:27,238 TRACE BasicBinder:81 - binding parameter [6] as [INTEGER] - [4]
+2016-06-27 14:12:27,241 DEBUG [main] persistance.ProjectTest (ProjectTest.java:181) - -- beanMaEngineerkbn persisted--
+2016-06-27 14:12:27,241 DEBUG [main] persistance.ProjectTest (ProjectTest.java:181) - -- beanMaEngineerkbn persisted--
+2016-06-27 14:12:27,241 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:42) - persisting MaSkillitem instance
+2016-06-27 14:12:27,241 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:42) - persisting MaSkillitem instance
+2016-06-27 14:12:27,245 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:45) - persist successful
+2016-06-27 14:12:27,245 DEBUG [main] persistance.MaSkillitemHome (MaSkillitemHome.java:45) - persist successful
+Hibernate: insert into project_db4.ma_skillitem (skill_name, skill_dsp_order, category_code, skill_code) values (?, ?, ?, ?)
+14:12:27,247 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Java Programming]
+14:12:27,248 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [1]
+14:12:27,248 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [catCode4]
+14:12:27,248 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [4]
+2016-06-27 14:12:27,250 DEBUG [main] persistance.ProjectTest (ProjectTest.java:186) - -- beanSkillitem persisted--
+2016-06-27 14:12:27,250 DEBUG [main] persistance.ProjectTest (ProjectTest.java:186) - -- beanSkillitem persisted--
+2016-06-27 14:12:27,251 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:40) - persisting MaSkillcategory instance
+2016-06-27 14:12:27,251 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:40) - persisting MaSkillcategory instance
+2016-06-27 14:12:27,252 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:43) - persist successful
+2016-06-27 14:12:27,252 DEBUG [main] persistance.MaSkillcategoryHome (MaSkillcategoryHome.java:43) - persist successful
+Hibernate: insert into project_db4.ma_skillcategory (category_name, category_dsp_order, category_code) values (?, ?, ?)
+14:12:27,254 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [catName2_4]
+14:12:27,254 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [1]
+14:12:27,255 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [catCode4]
+2016-06-27 14:12:27,259 DEBUG [main] persistance.ProjectTest (ProjectTest.java:191) - -- bean_skillCategory persisted--
+2016-06-27 14:12:27,259 DEBUG [main] persistance.ProjectTest (ProjectTest.java:191) - -- bean_skillCategory persisted--
+2016-06-27 14:12:27,260 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:42) - persisting TzPrjNeedsEngineer instance
+2016-06-27 14:12:27,260 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:42) - persisting TzPrjNeedsEngineer instance
+2016-06-27 14:12:27,261 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:45) - persist successful
+2016-06-27 14:12:27,261 DEBUG [main] persistance.TzPrjNeedsEngineerHome (TzPrjNeedsEngineerHome.java:45) - persist successful
+Hibernate: insert into project_db4.tz_prj_needs_engineer (prj_needs_engineer_number, prj_needs_priod_from, prj_needs_priod_to, prj_needs_engineer_rough_price, prj_needs_engineer_working_place, prj_needs_engineer_etc, prj_needs_engineer_upd_kaisha_id, prj_needs_engineer_upd_user_id, upd_dtime, prj_id, prj_sub_id, prj_needs_engineerkbn_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+14:12:27,263 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [1]
+14:12:27,264 TRACE BasicBinder:81 - binding parameter [2] as [TIMESTAMP] - [Mon Jun 27 14:12:27 JST 2016]
+14:12:27,264 TRACE BasicBinder:69 - binding parameter [3] as [TIMESTAMP] - [null]
+14:12:27,265 TRACE BasicBinder:81 - binding parameter [4] as [INTEGER] - [5000]
+14:12:27,265 TRACE BasicBinder:81 - binding parameter [5] as [VARCHAR] - [Hirooka]
+14:12:27,265 TRACE BasicBinder:81 - binding parameter [6] as [VARCHAR] - [etc needs]
+14:12:27,267 TRACE BasicBinder:81 - binding parameter [7] as [INTEGER] - [7]
+14:12:27,268 TRACE BasicBinder:81 - binding parameter [8] as [INTEGER] - [11]
+14:12:27,268 TRACE BasicBinder:81 - binding parameter [9] as [TIMESTAMP] - [Mon Jun 27 14:12:27 JST 2016]
+14:12:27,269 TRACE BasicBinder:81 - binding parameter [10] as [INTEGER] - [5]
+14:12:27,269 TRACE BasicBinder:81 - binding parameter [11] as [INTEGER] - [44]
+14:12:27,269 TRACE BasicBinder:81 - binding parameter [12] as [INTEGER] - [4]
+2016-06-27 14:12:27,318 DEBUG [main] persistance.ProjectTest (ProjectTest.java:196) - -- beanTzPrjNeedsEngineer persisted--
+2016-06-27 14:12:27,318 DEBUG [main] persistance.ProjectTest (ProjectTest.java:196) - -- beanTzPrjNeedsEngineer persisted--
+2016-06-27 14:12:27,320 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:57) - persisting MaCustomer instance
+2016-06-27 14:12:27,320 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:57) - persisting MaCustomer instance
+persist successful
+2016-06-27 14:12:27,323 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:65) - persist successful
+2016-06-27 14:12:27,323 DEBUG [main] persistance.MaCustomerHome (MaCustomerHome.java:65) - persist successful
+Hibernate: insert into project_db4.ma_customer (customer_code, cuatomer_name, customer_dsp_name, customer_tel, customer_fax, customer_tanto_name, customer_email_addrs, customer_id) values (?, ?, ?, ?, ?, ?, ?, ?)
+14:12:27,325 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [1234]
+14:12:27,325 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [NombrePrj]
+14:12:27,326 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [DspName]
+14:12:27,326 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [4445]
+14:12:27,326 TRACE BasicBinder:81 - binding parameter [5] as [VARCHAR] - [12345677]
+14:12:27,326 TRACE BasicBinder:81 - binding parameter [6] as [VARCHAR] - [tanto]
+14:12:27,327 TRACE BasicBinder:81 - binding parameter [7] as [VARCHAR] - [email@domain.com]
+14:12:27,327 TRACE BasicBinder:81 - binding parameter [8] as [INTEGER] - [4]
+2016-06-27 14:12:27,328 DEBUG [main] persistance.ProjectTest (ProjectTest.java:201) - -- beanmaCustomerBeanppal persisted --
+2016-06-27 14:12:27,328 DEBUG [main] persistance.ProjectTest (ProjectTest.java:201) - -- beanmaCustomerBeanppal persisted --
+14:12:27,329 DEBUG TzPrjHome:39 - persisting TzPrj instance
+Hibernate: select macustomer_.customer_id, macustomer_.customer_code as customer2_0_, macustomer_.cuatomer_name as cuatomer3_0_, macustomer_.customer_dsp_name as customer4_0_, macustomer_.customer_tel as customer5_0_, macustomer_.customer_fax as customer6_0_, macustomer_.customer_tanto_name as customer7_0_, macustomer_.customer_email_addrs as customer8_0_ from project_db4.ma_customer macustomer_ where macustomer_.customer_id=?
+14:12:27,335 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [4]
+14:12:27,337 TRACE BasicExtractor:78 - extracted value ([customer2_0_] : [VARCHAR]) - [1234]
+14:12:27,337 TRACE BasicExtractor:78 - extracted value ([cuatomer3_0_] : [VARCHAR]) - [NombrePrj]
+14:12:27,339 TRACE BasicExtractor:78 - extracted value ([customer4_0_] : [VARCHAR]) - [DspName]
+14:12:27,339 TRACE BasicExtractor:78 - extracted value ([customer5_0_] : [VARCHAR]) - [4445]
+14:12:27,339 TRACE BasicExtractor:78 - extracted value ([customer6_0_] : [VARCHAR]) - [12345677]
+14:12:27,340 TRACE BasicExtractor:78 - extracted value ([customer7_0_] : [VARCHAR]) - [tanto]
+14:12:27,340 TRACE BasicExtractor:78 - extracted value ([customer8_0_] : [VARCHAR]) - [email@domain.com]
+14:12:27,343 DEBUG TzPrjHome:42 - persist successful
+Hibernate: insert into project_db4.tz_prj (prj_customer_id, prj_kbn_id, prj_importance_id, prj_target_id, prj_profitability_id, prj_nearshore_id, prj_strategic_id, prj_enduser_name, prj_name, prj_summary, prj_working_place, prj_delivery_date, prj_security_requirements, prj_etc_requirements, prj_etc, prj_sales_kaisha_id, prj_add_user_id, prj_upd_kaisha_id, prj_upd_user_id, cre_dtime, upd_dtime, pr_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+14:12:27,345 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [4]
+14:12:27,346 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [5]
+14:12:27,346 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [2]
+14:12:27,346 TRACE BasicBinder:81 - binding parameter [4] as [INTEGER] - [0]
+14:12:27,346 TRACE BasicBinder:81 - binding parameter [5] as [INTEGER] - [0]
+14:12:27,347 TRACE BasicBinder:81 - binding parameter [6] as [INTEGER] - [0]
+14:12:27,348 TRACE BasicBinder:81 - binding parameter [7] as [INTEGER] - [0]
+14:12:27,349 TRACE BasicBinder:69 - binding parameter [8] as [VARCHAR] - [null]
+14:12:27,349 TRACE BasicBinder:81 - binding parameter [9] as [VARCHAR] - [project aiko]
+14:12:27,350 TRACE BasicBinder:81 - binding parameter [10] as [VARCHAR] - [summary]
+14:12:27,350 TRACE BasicBinder:69 - binding parameter [11] as [VARCHAR] - [null]
+14:12:27,350 TRACE BasicBinder:69 - binding parameter [12] as [DATE] - [null]
+14:12:27,350 TRACE BasicBinder:69 - binding parameter [13] as [VARCHAR] - [null]
+14:12:27,351 TRACE BasicBinder:69 - binding parameter [14] as [VARCHAR] - [null]
+14:12:27,351 TRACE BasicBinder:69 - binding parameter [15] as [VARCHAR] - [null]
+14:12:27,351 TRACE BasicBinder:69 - binding parameter [16] as [INTEGER] - [null]
+14:12:27,351 TRACE BasicBinder:81 - binding parameter [17] as [INTEGER] - [192]
+14:12:27,351 TRACE BasicBinder:81 - binding parameter [18] as [INTEGER] - [22]
+14:12:27,352 TRACE BasicBinder:81 - binding parameter [19] as [INTEGER] - [5]
+14:12:27,352 TRACE BasicBinder:81 - binding parameter [20] as [DATE] - [Mon Jun 27 14:12:27 JST 2016]
+14:12:27,352 TRACE BasicBinder:81 - binding parameter [21] as [DATE] - [Mon Jun 27 14:12:27 JST 2016]
+14:12:27,353 TRACE BasicBinder:81 - binding parameter [22] as [INTEGER] - [5]
+2016-06-27 14:12:27,356 DEBUG [main] persistance.ProjectTest (ProjectTest.java:205) - -- bean beanTzPrj persisted --
+2016-06-27 14:12:27,356 DEBUG [main] persistance.ProjectTest (ProjectTest.java:205) - -- bean beanTzPrj persisted --
+2016-06-27 14:12:27,357 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:43) - persisting TzPrjNeedsSkill instance
+2016-06-27 14:12:27,357 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:43) - persisting TzPrjNeedsSkill instance
+2016-06-27 14:12:27,358 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:46) - persist successful
+2016-06-27 14:12:27,358 DEBUG [main] persistance.TzPrjNeedsSkillHome (TzPrjNeedsSkillHome.java:46) - persist successful
+Hibernate: insert into project_db4.tz_prj_needs_skill (prj_needs_skill_category_code, prj_needs_skill_code, prj_needs_skill_level, prj_needs_skill_upd_kaisha_id, prj_needs_skill_upd_user_id, upd_dtime, prj_id, prj_sub_id, tz_prj_needs_engineerkbn_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+14:12:27,370 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [catCode4]
+14:12:27,370 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [4]
+14:12:27,371 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [25]
+14:12:27,371 TRACE BasicBinder:81 - binding parameter [4] as [INTEGER] - [7]
+14:12:27,371 TRACE BasicBinder:81 - binding parameter [5] as [INTEGER] - [11]
+14:12:27,372 TRACE BasicBinder:81 - binding parameter [6] as [TIMESTAMP] - [Mon Jun 27 14:12:27 JST 2016]
+14:12:27,372 TRACE BasicBinder:81 - binding parameter [7] as [INTEGER] - [5]
+14:12:27,372 TRACE BasicBinder:81 - binding parameter [8] as [INTEGER] - [44]
+14:12:27,373 TRACE BasicBinder:81 - binding parameter [9] as [INTEGER] - [4]
+2016-06-27 14:12:27,376 DEBUG [main] persistance.ProjectTest (ProjectTest.java:211) - -- beanTzPrjNeedsSkill persisted--
+2016-06-27 14:12:27,376 DEBUG [main] persistance.ProjectTest (ProjectTest.java:211) - -- beanTzPrjNeedsSkill persisted--
+2016-06-27 14:12:27,390 DEBUG [main] persistance.ProjectTest (ProjectTest.java:214) - -- beanTzPrj persisted--
+2016-06-27 14:12:27,390 DEBUG [main] persistance.ProjectTest (ProjectTest.java:214) - -- beanTzPrj persisted--
+2016-06-27 14:12:27,390 DEBUG [main] persistance.ProjectTest (ProjectTest.java:216) - --End of testProject_createWithSkills--
+2016-06-27 14:12:27,390 DEBUG [main] persistance.ProjectTest (ProjectTest.java:216) - --End of testProject_createWithSkills--
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.221 sec
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.474 s
+[INFO] Finished at: 2016-06-27T14:12:27+09:00
+[INFO] Final Memory: 14M/217M
+[INFO] ------------------------------------------------------------------------

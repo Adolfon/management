@@ -1,0 +1,12 @@
+co\jp\eureka\entities\TzPrjNeedsEngineerId.class
+co\jp\eureka\entities\MaSkillcategory.class
+co\jp\eureka\entities\MaCustomer.class
+co\jp\eureka\entities\MaEngineerkbn.class
+co\jp\eureka\entities\TzPrj.class
+co\jp\eureka\entities\MaProjectkbn.class
+co\jp\eureka\utils\HibernateSession.class
+co\jp\eureka\utils\HibernateListener.class
+co\jp\eureka\example\ExampleSupport.class
+co\jp\eureka\entities\TzPrjNeedsSkillId.class
+co\jp\eureka\example\Login.class
+co\jp\eureka\example\HelloWorld.class

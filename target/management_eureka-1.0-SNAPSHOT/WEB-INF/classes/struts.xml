@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
+    <constant name="struts.devMode" value="true"/>
+
+    <package name="default" namespace="/" extends="struts-default">
+
+        <default-action-ref name="Login"/>
+	<!--  
+        <action name="index">
+            <result type="redirectAction">
+                <param name="actionName">HelloWorld</param>
+                <param name="namespace">/example</param>
+            </result>
+        </action>
+	-->
+	
+	
+	
+	<action name="Login" class="co.jp.eureka.controllers.Login">
+            <result name="input">/WEB-INF/views/Login.jsp</result>
+            <result type="redirectAction">Project_list</result> 
+            <result name="loginPage">/WEB-INF/views/Login.jsp</result>  
+    </action>
+    
+    
+    <action name="Project_list" class="co.jp.eureka.controllers.ProjectList">            
+            <result name="success">/WEB-INF/views/Project_List.jsp</result>  
+    </action>
+        
+        
+        
+        
+     <!-- You can call directly to whatever jsp page from the url with the next action -->
+        <action name="*" class="co.jp.eureka.controllers.EurekaSupport">
+            <result>/WEB-INF/views/{1}.jsp</result>
+        </action>
+    
+	
+    </package>
+
+    <!-- Add addition packages and configuration here. -->
+</struts>

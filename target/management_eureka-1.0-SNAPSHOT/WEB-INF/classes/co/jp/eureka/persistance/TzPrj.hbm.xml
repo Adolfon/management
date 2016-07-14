@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 15, 2016 5:39:07 PM by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="co.jp.eureka.entities.TzPrj" table="tz_prj" catalog="project_db4" optimistic-lock="version">
+        <id name="prId" type="int">
+            <column name="pr_id" />
+            <generator class="foreign">
+                <param name="property">maProjectkbn</param>
+            </generator>
+        </id>
+        <many-to-one name="maCustomer" class="co.jp.eureka.entities.MaCustomer" fetch="select">
+            <column name="prj_customer_id" not-null="true" />
+        </many-to-one>
+        <one-to-one name="maProjectkbn" class="co.jp.eureka.entities.MaProjectkbn" constrained="true"></one-to-one>
+        <property name="prjKbnId" type="int">
+            <column name="prj_kbn_id" not-null="true" />
+        </property>
+        <property name="prjImportanceId" type="int">
+            <column name="prj_importance_id" not-null="true" />
+        </property>
+        <property name="prjTargetId" type="int">
+            <column name="prj_target_id" not-null="true" />
+        </property>
+        <property name="prjProfitabilityId" type="int">
+            <column name="prj_profitability_id" not-null="true" />
+        </property>
+        <property name="prjNearshoreId" type="int">
+            <column name="prj_nearshore_id" not-null="true" />
+        </property>
+        <property name="prjStrategicId" type="int">
+            <column name="prj_strategic_id" not-null="true" />
+        </property>
+        <property name="prjEnduserName" type="string">
+            <column name="prj_enduser_name" length="45" />
+        </property>
+        <property name="prjName" type="string">
+            <column name="prj_name" length="45" not-null="true" />
+        </property>
+        <property name="prjSummary" type="string">
+            <column name="prj_summary" length="45" not-null="true" />
+        </property>
+        <property name="prjWorkingPlace" type="string">
+            <column name="prj_working_place" length="45" />
+        </property>
+        <property name="prjDeliveryDate" type="date">
+            <column name="prj_delivery_date" length="10" />
+        </property>
+        <property name="prjSecurityRequirements" type="string">
+            <column name="prj_security_requirements" length="45" />
+        </property>
+        <property name="prjEtcRequirements" type="string">
+            <column name="prj_etc_requirements" length="45" />
+        </property>
+        <property name="prjEtc" type="string">
+            <column name="prj_etc" length="45" />
+        </property>
+        <property name="prjSalesKaishaId" type="java.lang.Integer">
+            <column name="prj_sales_kaisha_id" />
+        </property>
+        <property name="prjAddUserId" type="int">
+            <column name="prj_add_user_id" not-null="true" />
+        </property>
+        <property name="prjUpdKaishaId" type="int">
+            <column name="prj_upd_kaisha_id" not-null="true" />
+        </property>
+        <property name="prjUpdUserId" type="int">
+            <column name="prj_upd_user_id" not-null="true" />
+        </property>
+        <property name="creDtime" type="date">
+            <column name="cre_dtime" length="10" not-null="true" />
+        </property>
+        <property name="updDtime" type="date">
+            <column name="upd_dtime" length="10" not-null="true" />
+        </property>
+        <set name="tzPrjNeedsSkills" table="tz_prj_needs_skill" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="prj_id" not-null="true" />
+            </key>
+            <one-to-many class="co.jp.eureka.entities.TzPrjNeedsSkill" />
+        </set>
+    </class>
+</hibernate-mapping>

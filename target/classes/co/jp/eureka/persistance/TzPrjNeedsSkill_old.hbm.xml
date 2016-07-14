@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 15, 2016 5:39:07 PM by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="co.jp.eureka.entities.TzPrjNeedsSkill" table="tz_prj_needs_skill" catalog="project_db3" optimistic-lock="version">
+        <composite-id name="id" class="co.jp.eureka.entities.TzPrjNeedsSkillId">
+            <key-property name="prjId" type="int">
+                <column name="prj_id" />
+            </key-property>
+            <key-property name="prjSubId" type="int">
+                <column name="prj_sub_id" />
+            </key-property>
+            <key-property name="tzPrjNeedsEngineerkbnId" type="int">
+                <column name="tz_prj_needs_engineerkbn_id" />
+            </key-property>
+        </composite-id>
+        
+        <many-to-one name="maSkillcategory" class="co.jp.eureka.entities.MaSkillcategory" fetch="select">
+            <column name="prj_needs_skill_category_code" length="20" not-null="true" />
+        </many-to-one>
+        
+        <many-to-one name="maSkillitem" class="co.jp.eureka.entities.MaSkillitem" update="false" insert="false" fetch="select">
+            <column name="prj_needs_skill_category_code" length="20" not-null="true" />
+            <column name="prj_needs_skill_code" length="20" not-null="true" />
+        </many-to-one>
+        
+        <many-to-one name="tzPrj" class="co.jp.eureka.entities.TzPrj" update="false" insert="false" fetch="select">
+            <column name="prj_id" not-null="true" />
+        </many-to-one>
+        
+        <one-to-one name="tzPrjNeedsEngineer" class="co.jp.eureka.entities.TzPrjNeedsEngineer" constrained="true"></one-to-one>
+        
+        <!-- Adding this property.. -->
+        <property name="prjNeedsSkillCode" type="string">
+            <column name="prj_needs_skill_code" length="20" not-null="true" />
+        </property>
+        
+        
+        <property name="prjNeedsSkillLevel" type="int">
+            <column name="prj_needs_skill_level" not-null="true" />
+        </property>
+        <property name="prjNeedsSkillUpdKaishaId" type="int">
+            <column name="prj_needs_skill_upd_kaisha_id" not-null="true" />
+        </property>
+        <property name="prjNeedsSkillUpdUserId" type="int">
+            <column name="prj_needs_skill_upd_user_id" not-null="true" />
+        </property>
+        <property name="updDtime" type="timestamp">
+            <column name="upd_dtime" length="19" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
